@@ -1,0 +1,2 @@
+#ignore weights
+src/faceRecognition/backbones/weights/ElasticFace-Arc+/*
