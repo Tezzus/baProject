@@ -10,9 +10,9 @@ import os
 wPATH = os.getcwd()
 
 """all weights are obtained with elasticface arc+, place"""
-weights = ['22744backbone.pth','79604backbone.pth','113720backbone.pth','170580backbone.pth','216068backbone.pth','272928backbone.pth']
+weights = ['22744backbone.pth','79604backbone.pth','113720backbone.pth','170580backbone.pth','216068backbone.pth','272928backbone.pth','iresnet100-73e07ba7.pth']
 elasticFace = ElasticFace()
-elasticFace.setWeights(weights[4])
+elasticFace.setWeights(weights[5])
 
 face1 = Image.open(os.path.join(wPATH,'samples/musk1.jpg'))
 face2 = Image.open(os.path.join(wPATH,'samples/musk2.jpg'))
